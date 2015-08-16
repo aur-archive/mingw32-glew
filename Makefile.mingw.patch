@@ -1,0 +1,8 @@
+2,4c2,4
+< # use gcc for linking, with ld it does not work
+< CC := gcc
+< LD := gcc
+---
+> # use i486-mingw32-gcc for linking, with ld it does not work
+> CC = i486-mingw32-gcc
+> LD = i486-mingw32-gcc
